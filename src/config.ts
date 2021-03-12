@@ -373,6 +373,11 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      1660: envOrNumber(process.env.MAX_PRICE_SERIES_1660),
+      2060: envOrNumber(process.env.MAX_PRICE_SERIES_2060),
+      2070: envOrNumber(process.env.MAX_PRICE_SERIES_2070),
+      2080: envOrNumber(process.env.MAX_PRICE_SERIES_2080),
+      '2080ti': envOrNumber(process.env.MAX_PRICE_SERIES_2080TI),
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
       3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),
@@ -380,6 +385,10 @@ const store = {
       3090: envOrNumber(process.env.MAX_PRICE_SERIES_3090),
       'captcha-deterrent': 0,
       darkhero: envOrNumber(process.env.MAX_PRICE_SERIES_DARKHERO),
+      rx570: envOrNumber(process.env.MAX_PRICE_SERIES_RX570),
+      rx580: envOrNumber(process.env.MAX_PRICE_SERIES_RX580),
+      rx5600xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX5600XT),
+      rx5700: envOrNumber(process.env.MAX_PRICE_SERIES_RX5700),
       rx6800: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800),
       rx6800xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800XT),
       rx6900xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6900XT),

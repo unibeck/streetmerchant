@@ -53,7 +53,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
         }
 
         if (Object.keys(notifyGroupSeries).indexOf(link.series) !== -1) {
-          notifyText = notifyText.concat(notifyGroupSeries[link.series]);
+          // notifyText = notifyText.concat(notifyGroupSeries[link.series]);
         }
 
         const promises = [];

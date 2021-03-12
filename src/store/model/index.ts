@@ -7,6 +7,7 @@ import {Allneeds} from './allneeds';
 import {Alternate} from './alternate';
 import {AlternateNL} from './alternate-nl';
 import {Amazon} from './amazon';
+import {AmazonOther} from './amazon-other';
 import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
 import {AmazonDeWarehouse} from './amazon-de-warehouse';
@@ -32,6 +33,7 @@ import {Awd} from './awd';
 import {Azerty} from './azerty';
 import {BAndH} from './bandh';
 import {BestBuy} from './bestbuy';
+import {BestBuyOther} from './bestbuy-other';
 import {BestBuyCa} from './bestbuy-ca';
 import {Box} from './box';
 import {Bpctech} from './bpctech';
@@ -153,6 +155,7 @@ export const storeList = new Map([
   [Alternate.name, Alternate],
   [AlternateNL.name, AlternateNL],
   [Amazon.name, Amazon],
+  [AmazonOther.name, AmazonOther],
   [AmazonCa.name, AmazonCa],
   [AmazonDe.name, AmazonDe],
   [AmazonDeWarehouse.name, AmazonDeWarehouse],
@@ -178,6 +181,7 @@ export const storeList = new Map([
   [Azerty.name, Azerty],
   [BAndH.name, BAndH],
   [BestBuy.name, BestBuy],
+  [BestBuyOther.name, BestBuyOther],
   [BestBuyCa.name, BestBuyCa],
   [Box.name, Box],
   [Bpctech.name, Bpctech],

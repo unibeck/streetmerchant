@@ -93,6 +93,7 @@ import {Msy} from './msy';
 import {Mwave} from './mwave';
 import {NetonnetNO} from './netonnet-no';
 import {Newegg} from './newegg';
+import {NeweggOther} from './newegg-other';
 import {NeweggCa} from './newegg-ca';
 import {NeweggSg} from './newegg-sg';
 import {Notebooksbilliger} from './notebooksbilliger';
@@ -242,6 +243,7 @@ export const storeList = new Map([
   [Mwave.name, Mwave],
   [NetonnetNO.name, NetonnetNO],
   [Newegg.name, Newegg],
+  [NeweggOther.name, NeweggOther],
   [NeweggCa.name, NeweggCa],
   [NeweggSg.name, NeweggSg],
   [Notebooksbilliger.name, Notebooksbilliger],

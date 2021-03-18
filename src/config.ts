@@ -389,6 +389,7 @@ const store = {
       rx580: envOrNumber(process.env.MAX_PRICE_SERIES_RX580),
       rx5600xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX5600XT),
       rx5700: envOrNumber(process.env.MAX_PRICE_SERIES_RX5700),
+      rx6700xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800XT),
       rx6800: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800),
       rx6800xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800XT),
       rx6900xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6900XT),

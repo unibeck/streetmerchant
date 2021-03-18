@@ -54,6 +54,7 @@ export type Series =
   | 'rx580'
   | 'rx5600xt'
   | 'rx5700'
+  | 'rx6700xt'
   | 'rx6800'
   | 'rx6800xt'
   | 'rx6900xt'
